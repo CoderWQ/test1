@@ -15,6 +15,7 @@
 		7CA45A021C2A7B43000A378E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA45A001C2A7B43000A378E /* LaunchScreen.storyboard */; };
 		7CA45A0D1C2A7B43000A378E /* test1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA45A0C1C2A7B43000A378E /* test1Tests.m */; };
 		7CA45A181C2A7B43000A378E /* test1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA45A171C2A7B43000A378E /* test1UITests.m */; };
+		7CA45A271C2A7C0C000A378E /* WQLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA45A261C2A7C0C000A378E /* WQLoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7CA45A131C2A7B43000A378E /* test1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CA45A171C2A7B43000A378E /* test1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test1UITests.m; sourceTree = "<group>"; };
 		7CA45A191C2A7B43000A378E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CA45A251C2A7C0C000A378E /* WQLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQLoginViewController.h; sourceTree = "<group>"; };
+		7CA45A261C2A7C0C000A378E /* WQLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQLoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				7CA45A001C2A7B43000A378E /* LaunchScreen.storyboard */,
 				7CA45A031C2A7B43000A378E /* Info.plist */,
 				7CA459F21C2A7B43000A378E /* Supporting Files */,
+				7CA45A251C2A7C0C000A378E /* WQLoginViewController.h */,
+				7CA45A261C2A7C0C000A378E /* WQLoginViewController.m */,
 			);
 			path = test1;
 			sourceTree = "<group>";
@@ -272,6 +277,7 @@
 			files = (
 				7CA459FA1C2A7B43000A378E /* ViewController.m in Sources */,
 				7CA459F71C2A7B43000A378E /* AppDelegate.m in Sources */,
+				7CA45A271C2A7C0C000A378E /* WQLoginViewController.m in Sources */,
 				7CA459F41C2A7B43000A378E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
